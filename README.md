@@ -30,9 +30,9 @@ PocketComm utilizes a **Hybrid Edge-Cloud Topology** to ensure data survives the
 
 | Component | Specification | Role |
 | --- | --- | --- |
-| **MCU** | ESP32-WROOM-32 | Dual-core processing (240MHz) for RF + BT multitasking.|
+| **MCU** | ESP32 | Dual-core processing (240MHz) for multitasking.|
 | **Radio** | SX1278 LoRa (433MHz) | Long-range penetration using Spread Spectrum Modulation.|
-| **Navigator** | u-blox NEO-6M GPS | Atomic-clock precision for geolocation tagging.|
+| **Navigator** | NEO-6M GPS | Atomic-clock precision for geolocation tagging.|
 | **Display** | 0.96" SSD1306 OLED | Heads-Up Display (HUD) for real-time status feedback. |
 
 ### **Software Stack**
