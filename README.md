@@ -43,42 +43,29 @@ PocketComm utilizes a **Hybrid Edge-Cloud Topology** to ensure data survives the
 
 ### **Software Stack**
 
-* 
-**Embedded Layer**: C++ / Arduino IDE for node firmware.
+* **Embedded Layer**: C++ / Arduino IDE for node firmware.
 
+* **Communication Layer**: Bluetooth Classic (Smartphone to ESP32) and LoRa RF (Node to Node).
 
-* 
-**Communication Layer**: Bluetooth Classic (Smartphone to ESP32) and LoRa RF (Node to Node).
+* **Cloud & Backend**: Firebase Realtime Database for sub-second synchronization.
 
+* **Intelligence Layer**: Google Gemini API for message classification and priority scoring.
 
-* 
-**Cloud & Backend**: Firebase Realtime Database for sub-second synchronization.
-
-
-* 
-**Intelligence Layer**: Google Gemini API for message classification and priority scoring.
-
-
-* 
-**Interface**: Tactical Web Dashboard (HTML, CSS, JS).
-
+* **Interface**: Tactical Web Dashboard (HTML, CSS, JS).
 
 
 ---
 
 ## ⚙️ Core Innovations
 
-* 
-**"Smart-Lock" Telemetry**: Every message is automatically stamped with real-time GPS coordinates at the sender node.
-
+* **"Smart-Lock" Telemetry**: Every message is automatically stamped with real-time GPS coordinates at the sender node.
 
 * **Dynamic Information Display**: A custom software routine that manages real-time status updates on the OLED screen.
-* 
-**No-App Interface**: Users connect via standard Bluetooth Terminal apps—no proprietary software downloads required during an emergency.
+  
+* **No-App Interface**: Users connect via standard Bluetooth Terminal apps—no proprietary software downloads required during an emergency.
 
 
-* 
-**Infrastructure Independence**: Operates completely independent of telecom infrastructure during disasters.
+* **Infrastructure Independence**: Operates completely independent of telecom infrastructure during disasters.
 
 
 
@@ -122,29 +109,24 @@ BT:ON    SAT:08   98%    <-- System Health Bar
 
 ---
 
-👥 Team PowerHouse 
+Team PowerHouse 
 
-* S. Sowravkanth: Team Lead, Lead Systems Architect, & Main Executor.
-
-
-* 
-**Tharun Raj A.M**: Lead Full-Stack Dev, Firebase Architect, & Main Executor.
+* S. Sowravkanth**
 
 
-* 
-**Hrithik.Y**: Lead Hardware Engineer & Circuit Assembly.
+* **Y.Hrithik**
 
 
-* 
-**Muthukumaran.T**: Embedded Systems & Power Optimization.
+* **Tejeshwar A.S**
 
 
-* 
-**Tejeshwar A.S**: Cloud Integration & Quality Assurance.
+* **Tharun Raj A.M**
+ 
+
+* **Muthukumaran.T**
 
 
-* 
-**Hemanth A.R**: Frontend UI/UX & System Testing.
+* **Hemanth A.R**
 
 
 
