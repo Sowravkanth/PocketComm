@@ -46,24 +46,28 @@ PocketComm utilizes a **Hybrid Edge-Cloud Topology** to ensure data survives the
 | **Navigator** | u-blox NEO-6M GPS | Atomic-clock precision for geolocation tagging.
 
  |
-| **Display** | 0.96" SSD1306 OLED | Heads-Up Display (HUD) with custom "Ticker" engine. |
+| **Display** | 0.96" SSD1306 OLED | Heads-Up Display (HUD) for real-time status feedback. |
 
 ### **Software Stack**
 
 * 
-**Embedded**: C++ / Arduino IDE.
+**Embedded Layer**: C++ / Arduino IDE for node firmware.
 
 
 * 
-**Backend**: Firebase Realtime Database for sub-second synchronization.
+**Communication Layer**: Bluetooth Classic (Smartphone to ESP32) and LoRa RF (Node to Node).
 
 
 * 
-**Intelligence**: Google Gemini API for message classification.
+**Cloud & Backend**: Firebase Realtime Database for sub-second synchronization.
 
 
 * 
-**Interface**: Tactical Web Dashboard (HTML5/CSS3/JS).
+**Intelligence Layer**: Google Gemini API for message classification and priority scoring.
+
+
+* 
+**Interface**: Tactical Web Dashboard (HTML, CSS, JS).
 
 
 
@@ -72,15 +76,18 @@ PocketComm utilizes a **Hybrid Edge-Cloud Topology** to ensure data survives the
 ## ⚙️ Core Innovations
 
 * 
-**"Smart-Lock" Telemetry**: Every message is automatically stamped with real-time GPS coordinates.
+**"Smart-Lock" Telemetry**: Every message is automatically stamped with real-time GPS coordinates at the sender node.
 
 
-* **OLED Ticker Engine**: A custom software routine that scrolls long messages on the 128px screen, ensuring zero data loss during high-stress operations.
+* **Dynamic Information Display**: A custom software routine that manages real-time status updates on the OLED screen.
 * 
 **No-App Interface**: Users connect via standard Bluetooth Terminal apps—no proprietary software downloads required during an emergency.
 
 
-* **Sync-Word Security**: Uses custom sync word `0xF3` to hardware-filter RF noise and prevent signal collision.
+* 
+**Infrastructure Independence**: Operates completely independent of telecom infrastructure during disasters.
+
+
 
 ---
 
@@ -122,7 +129,7 @@ BT:ON    SAT:08   98%    <-- System Health Bar
 
 ---
 
-## 👥 Team PowerHouse
+👥 Team PowerHouse 
 
 * S. Sowravkanth: Team Lead, Lead Systems Architect, & Main Executor.
 
@@ -154,7 +161,4 @@ BT:ON    SAT:08   98%    <-- System Health Bar
 
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
 
-> 
-> **PocketComm: Communication Without Boundaries.** 
-> 
->
+> **PocketComm: Communication Without Boundaries.**
