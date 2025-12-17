@@ -1,7 +1,3 @@
-This is the **definitive, Maverick-grade README.md** for PocketComm. It is engineered to showcase high-level technical proficiency, clear problem-solving, and a deployment-ready mindset for your hackathon submission.
-
----
-
 # ⚡ PocketComm
 
 > **Unbreakable Connection When Grids Fail.**
@@ -14,16 +10,13 @@ This is the **definitive, Maverick-grade README.md** for PocketComm. It is engin
 
 In a country as geographically diverse as India, cellular networks are the first casualty of floods, cyclones, and earthquakes. PocketComm addresses this "Zero Communication" crisis by delivering:
 
-* 
-**Disaster-Proof Messaging**: Free-text emergency communication across kilometers without relying on telecom towers or SIM cards.
+* **Disaster-Proof Messaging**: Free-text emergency communication across kilometers without relying on telecom towers or SIM cards.
 
 
-* 
-**Guaranteed Reliability**: A custom acknowledgement-based protocol ensures your distress signal is heard and logged.
+* **Guaranteed Reliability**: A custom acknowledgement-based protocol ensures your distress signal is heard and logged.
 
 
-* 
-**AI-Prioritized Rescue**: Integration with **Google Gemini AI** to automatically classify and rank incoming alerts based on medical urgency.
+* **AI-Prioritized Rescue**: Integration with **Google Gemini AI** to automatically classify and rank incoming alerts based on medical urgency.
 
 
 
